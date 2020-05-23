@@ -3,9 +3,12 @@
 ## Windows
 
 *  Abhängigkeiten installieren
-neovim: `choco upgrade neovim -y`
-clangd: `choco upgrade LLVM -y`
-python: `pip install --upgrade neovim`
+```
+choco upgrade neovim -y
+choco upgrade LLVM -y
+pip install --upgrade neovim
+```
+
 
 *  Repository nach %LOCALAPPDATA% klonen
 ```
