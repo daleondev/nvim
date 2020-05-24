@@ -8,6 +8,11 @@ let g:airline#extensions#tabline#right_alt_sep = ''
 " enable powerline fonts
 let g:airline_powerline_fonts = 1
 
+if g:os == "Windows"
+	let g:airline_left_sep = ''
+	let g:airline_right_sep = ''
+endif
+
 " Switch to your current theme
 let g:airline_theme = 'hybrid'
 

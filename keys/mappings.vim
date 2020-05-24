@@ -34,3 +34,17 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" Disable Arrow Keys (for practise)
+nnoremap <UP> :echo "No up for you!"<CR>
+vnoremap <UP> :<C-u>echo "No up for you!"<CR>
+inoremap <UP> <C-o>:echo "No up for you!"<CR>
+nnoremap <DOWN> :echo "No down for you!"<CR>
+vnoremap <DOWN> :<C-u>echo "No down for you!"<CR>
+inoremap <DOWN> <C-o>:echo "No down for you!"<CR>
+nnoremap <Left> :echo "No left for you!"<CR>
+vnoremap <Left> :<C-u>echo "No left for you!"<CR>
+inoremap <Left> <C-o>:echo "No left for you!"<CR>
+nnoremap <RIGHT> :echo "No right for you!"<CR>
+vnoremap <RIGHT> :<C-u>echo "No right for you!"<CR>
+inoremap <RIGHT> <C-o>:echo "No right for you!"<CR>
