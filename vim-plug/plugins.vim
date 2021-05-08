@@ -27,5 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'    
+    " CMake
+    Plug 'vhdirk/vim-cmake'
 
 call plug#end()
