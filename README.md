@@ -36,9 +36,16 @@ nvim
 :PlugInstall
 ```
 
-*  Install Coc-packages
+*  Install python plugins
+```
+python3 -m pip install --user --upgrade pynvim
+python2 -m pip install --user --upgrade pynvim
+```
+
+*  Install and configure coc
 ```
 :CocInstall coc-python coc-snippets coc-vimlsp coc-clangd coc-explorer
+:CocCommand clangd.install
 ```
 
 ## Windows
