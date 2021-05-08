@@ -17,8 +17,8 @@ nnoremap <S-TAB> :bprevious<CR>
 " nnoremap <C-s> :w<CR>
 " Alternate way to quit
 " nnoremap <C-Q> :wq!<CR>
-" Use control-c instead of escape
-" nnoremap <C-c> <Esc>
+" Use control-c to close all
+nnoremap <C-c> :qa<CR>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 

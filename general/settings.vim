@@ -44,3 +44,4 @@ cmap w!! w !sudo tee %
 autocmd VimEnter * CocCommand explorer
 autocmd VimEnter * sp
 autocmd VimEnter * term
+autocmd VimEnter * resize -10
